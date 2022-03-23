@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+ <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="label">User Registration</h1>
+            
+           <h3>New here</h3> 
+           <h4>Signing up is easy ,it only takes a few steps</h4>
+       
+         <form class="loginform" method="POST" action="../process.php">
+            <div class="font"> First Name</div>
+            <input type="text" required name="passwords">
+
+            <div class="font"> Second Name</div>
+            <input type="text" required name="passwords">
+
+            <div class="font">Email</div>
+            <input autocomplete="off" type="text" required name="email">
+            
+            <div class="font">Phone Number</div>
+            <input autocomplete="off" type="text" required name="email">
+            
+            <div class="font">Address</div>
+            <input autocomplete="off" type="text" required name="email">
+                          
+
+            <div class="font"> Password</div>
+            <input type="password" required name="password">
+            
+   
+
+            <div class="font">Confirm Password</div>
+            <input type="password" required name="password">
+
+            <div class="font">Date Of Birth</div>
+            <input autocomplete="off" type="text" required name="email">
+            
+            <div class="font">Email</div>
+            <input autocomplete="off" type="text" required name="email">
+           
+   
+            <button type="submit" href="homepage.php">Register</button>
+            <div class="mb-4">
+               
+                <div> Already have an account? <a href="./login.php" class="tloginext-primary">Log In</a> </div>
+                <div > <a href="">Cancel</a>  </div>
+              </form> 
+</body>
+</html>
