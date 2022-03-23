@@ -16,16 +16,13 @@ $query = mysqli_query($con, $sql);
 
 if($query)
 	echo "data inserted successfully";
-
-
-
 ?> -->
 
 <?php
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
-$dbname = 'classical';
+$dbname = 'socialApp';
 
 $con = mysqli_connect($hostname, $username, $password, $dbname);
 
@@ -34,7 +31,7 @@ if ($con) {
 }
 
 $sql =
-    "INSERT INTO users (username, password, email) VALUES ('johnson', '123', 'johnsonemolu@gmail.com')";
+    "INSERT INTO login (Username, password, email) VALUES ('johnson', '123', 'johnsonemolu@gmail.com')";
 
 $query = mysqli_query($con, $sql);
 
